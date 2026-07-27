@@ -1,1 +1,1 @@
-#IdeaClicksAI Website
+# ideaclicksai
