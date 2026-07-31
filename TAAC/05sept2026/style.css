@@ -211,7 +211,14 @@ p{ margin:0; }
 .speakers-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:26px; margin-top:48px; max-width:760px; margin-left:auto; margin-right:auto; }
 @media (max-width:640px){ .speakers-grid{ grid-template-columns:1fr; } }
 .speaker-card{ background:var(--white); border:1px solid var(--line); border-radius:var(--radius-md); padding:30px; text-align:center; box-shadow:var(--shadow-sm); }
-.speaker-card img{ width:96px; height:96px; border-radius:50%; margin:0 auto 16px; }
+.speaker-card img{ width:156px; height:156px; border-radius:50%; margin:0 auto 16px; object-fit: co; }
+.speaker-card img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 0%;
+}
 .speaker-card h3{ font-size:18px; }
 .speaker-role{ font-size:13.5px; color:var(--teal-deep); margin-top:4px; }
 .speaker-bio{ font-size:14px; color:var(--ink-soft); margin-top:12px; }
