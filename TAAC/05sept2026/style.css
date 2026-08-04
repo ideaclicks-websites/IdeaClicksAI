@@ -99,7 +99,7 @@ p{ margin:0; }
 .eyebrow{
   font-family:var(--font-mono); font-size:21px; letter-spacing:0.08em; text-transform:uppercase;
   color:var(--white); background:var(--teal); display:inline-flex; align-items:center; gap:8px;
-  padding:6px 18px; border-radius:999px; margin-bottom:16px;
+  padding:6px 18px; border-radius:999px; margin-bottom:16px; text-align: center;
 }
 .eyebrow.center{ display:flex; margin-left:auto; margin-right:auto; width:fit-content; }
 .dot-live{ width:7px; height:7px; border-radius:50%; background:var(--coral); animation:pulse 1.6s infinite; }
